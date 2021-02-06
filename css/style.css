@@ -1,0 +1,191 @@
+body {
+    width: 100%;
+    background-image:url(../assets/images/body-background-8.png);
+    background-repeat: no-repeat;
+}
+
+
+/* ---------------------------------------------------------- start of Wrapper  */
+.wrapper {
+    display: grid;
+    margin: auto auto;
+}
+
+
+/* ---------------------------------------------------------- start of Output  */
+
+.output {
+    width: 40%;
+    min-width: 450px;
+    height: 100px;
+    border: 10px solid #8800FF;
+    border-bottom: 5px;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+    color: #8800FF;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    margin: 10px auto 0 auto;
+    transition: border 1s;
+    text-shadow: 2px 1px 2px #aaa;
+}
+
+.history{
+    overflow-x: auto;
+}
+
+.output-field{
+    overflow-x: auto;
+}
+
+.output:hover {
+    border: 10px solid #df207f;
+    border-radius: 10px 10px 0 0;
+}
+
+/* ---------------------------------------------------------- end of Output  */
+
+
+/* ---------------------------------------------------------- end of Wrapper  */
+
+
+
+/* ---------------------------------------------------------- start of Grid conteiner  */
+.grid-container {
+    margin: 0 auto;
+    width: 40%;
+    min-width: 450px;
+    border: 10px solid #8800FF;
+    border-radius: 0 0 10px 10px;
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    background-image:url(../assets/images/floral-640.jpg);
+    /*background-repeat:no-repeat;*/
+    justify-content: center;
+    transition: border 3s;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+
+.grid-container:hover {
+    margin: 0 auto;
+    width: 40%;
+    min-width: 450px;
+    border: 10px solid #ce1bb0e0;
+    border-radius: 0 0 10px 10px;
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    /*background-repeat:no-repeat;*/
+    justify-content: center;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+
+.grid-container-left {
+    margin: 0 auto;
+    width: 40%;
+    min-width: 450px;
+    border-left: 10px solid #8800FF;
+    border-right: 10px solid #8800FF;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* background-image:url(../assets/images/body-background-2.png); */
+    background-color: white;
+    background-repeat:no-repeat;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: border-left 3s, border-right 3s;
+}
+
+.grid-container-left:hover {
+    border-left: 10px solid red;
+    border-right: 10px solid gold;
+}
+
+.grid-item-left {
+    border: 1px solid white;
+    margin: 0px;
+    font-size: 30px;
+    width: 70px;
+    height: 60px;
+}
+
+.grid-item-left button {
+    width: 70px;
+    height: 60px;
+    font-size: 22px;
+    background-color: #c09bd6;
+    transition: width 1s, height 1s, backgroun-color 1s, font-size 1s;
+    border-color: #C0BBD6;
+}
+
+.grid-item-left button:hover {
+    color: white;
+    box-shadow: 0px 0px 10px 0px #8800FF;
+    width: 80px;
+    height: 68px;
+    background-color: darkmagenta;
+    font-size: 40px;
+}
+
+.grid-item {
+    border: 1px solid white;
+    font-size: 30px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.grid-item button {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+}
+
+
+
+.grid-item-equal button {
+    width: 120px;
+    height: 60px;
+    background-color: #c09bd6;
+    border: 1px solid white;
+    margin: 6px 6px 5px 2px;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    border-color: white;
+    background-color: #C0BBD6;
+    transition: transform 3s;
+}
+
+button:hover {
+    color: white;
+    transform: rotate(360deg);
+}
+
+.grid-item-equal button:hover {
+    color: white;
+    background-color: #8800FF;
+    box-shadow: 0px 0px 10px 0px #8800FF;
+}
+
+/* ---------------------------------------------------------- end of Grid container  */
+
+p {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #8800FF;
+    opacity: 50%;
+}
